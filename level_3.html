@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="./css/drag.css">
+<script>
+    function cmpInput()
+    {
+        var userInput = document.getElementById("text");
+    	//console.log(userInput);
+
+        if (userInput.value == "123")
+    		document.getElementById("restest").innerHTML = "Good Job!!";
+        else
+    		document.getElementById("restest").innerHTML = "so close!!";
+
+    }
+</script>
+<body>
+
+<h1>Input Element</h1>
+
+<form id="form" onsubmit="return false;">
+<input type="text" id="text">
+<input type="submit"    onclick="cmpInput()">
+</form>
+<div id="writebox">
+    <h1 id="restest"><span id="userInput"></span></h1>    
+</div>
+
+    
+<!-- <label>Input:</label>
+<input type="text" id="input" input="input"><br><br>
+<input type="submit" onclick="cmpInput()">
+<div id="result">
+	<button onclick="cmpInput()">Click me</button>
+	<div id="writebox">
+		<h1 id="restest"></h1>    
+	</div>
+</div> -->
+
+<!-- <script src="./js/drag.js"></script> -->
+
+</body>
+</html>
