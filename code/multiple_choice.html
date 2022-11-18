@@ -9,7 +9,11 @@
 	<script>
     function start_quiz() {
 		const quizContainer = document.getElementById('quiz');
+        document.getElementById("quiz").style.fontFamily = "Sans-Serif";
+        document.getElementById("quiz").style.fontSize = "x-large";
         const resultsContainer = document.getElementById('results');
+        document.getElementById("results").style.fontFamily = "Monospace";
+        document.getElementById("results").style.fontSize = "x-large";
         const submitButton = document.getElementById('submit');
         const myQuestions = [
           {
@@ -107,12 +111,12 @@
                 numCorrect++;
 
                 // color the answers green
-                answerContainers[questionNumber].style.color = 'lightgreen';
+                answerContainers[questionNumber].style.color = 'darkgreen';
             }
             // if answer is wrong or blank
             else{
                 // color the answers red
-                answerContainers[questionNumber].style.color = 'red';
+                answerContainers[questionNumber].style.color = 'darkred';
             }
             });
 
@@ -144,8 +148,8 @@
     <div class="container">
         <div class="main">
             <div id="quiz"></div>
-            <button onclick="start_quiz()">Start Quiz</button>
-            <button id="submit">Submit Quiz</button>
+            <button style="font-size:26px" onclick="start_quiz()">Start Quiz</button>
+            <button style="font-size:26px" id="submit">Submit Quiz</button>
             <div id="results"></div>
 
             
