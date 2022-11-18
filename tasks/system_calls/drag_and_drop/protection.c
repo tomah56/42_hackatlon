@@ -1,6 +1,6 @@
 /* 
  * TOPIC: Protection
- * TASK: Please drag & drop the correct elements into the code snipped
+ * TASK: Please drag & drop the correct element into the code snipped
  */
 
 int	main(void)
