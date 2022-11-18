@@ -1,0 +1,88 @@
+#mydiv {
+	position: absolute;
+	z-index: 9;
+	background-color: #f1f1f1;
+	border: 1px solid #d3d3d3;
+	text-align: center;
+	top: 20vw;
+	left: 27vw;
+  }
+#mydiv2 {
+	position: absolute;
+	z-index: 9;
+	background-color: #f1f1f1;
+	border: 1px solid #d3d3d3;
+	text-align: center;
+	top: 20vw;
+	left: 33vw;
+  }
+#result {
+	position: absolute;
+	z-index: 15;
+	text-align: left;
+	top: 35vw;
+	left:23vw;
+  }
+  
+  #mydivheader {
+	padding: 10px;
+	cursor: move;
+	z-index: 10;
+	background-color: #2196F3;
+	color: #fff;
+  }
+
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 1%;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center ;
+    background-color: darkmagenta;
+    width: 100%;
+    height: 5vw;
+}
+nav ul {
+    width: 100%;
+    display: flex;
+    
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+nav li {
+    margin: 1%;
+    width: 10%;
+    height: 2vw;
+    background-color: darkturquoise;
+}
+.container {
+    margin-top: 5%;
+    margin-bottom: 1%;
+    width: 100%;
+    display: flex;
+    height: 100vw;
+    flex-direction: row-reverse;
+}
+.main {
+    background-color: orange;
+    flex: 80%;
+    margin-left: 1%;
+}
+.side {
+    background-color: forestgreen;
+   flex:  20%;
+}
+footer {
+    background-color: silver;
+    width: 100%;
+    height: 5vw;
+}

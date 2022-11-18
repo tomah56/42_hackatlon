@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise V</title>
+    <link rel="stylesheet" href="./css/drag.css">
+	<script>
+		function myFunction() {
+			checkElement(document.getElementById("mydiv"), document.getElementById("mydiv2"));
+			function checkElement(element1, element2) {
+				console.log(element1.style.top ,element2.style.top );
+				if (element1.style.left < element2.style.left)
+					document.getElementById("restest").innerHTML = "Good Job!!";
+				else
+					document.getElementById("restest").innerHTML = "try again!";
+			}
+		}
+	</script>
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li>Start</li>
+            <li>Projects</li>
+            <li>About</li>
+            <li>Bonus</li>
+        </ul>
+        <div>
+            <h3>Exercise_IV/2_</h3>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="main">
+            <h1>Draggable DIV Element</h1>
+
+            <p>Click and hold the mouse button down while moving the DIV element</p>
+            <div>
+                
+                <div id="mydiv">
+                    <div id="mydivheader">Click here to move</div>
+                    <p>int main(void)</p>
+                </div>
+                <div id="mydiv2">
+                    <div id="mydivheader">Click here to move</div>
+                    <p>{</p>
+                        <p>write(1, "42!!\n",5);</p>
+                        <p>}</p>
+                    </div>
+            </div>
+            <div id="result">
+                <button onclick="myFunction()">Click me</button>
+                <div id="writebox">
+                    <h1 id="restest"></h1>    
+                </div>
+            </div>
+
+            <script src="./js/drag.js"></script>
+        </div>
+        <div class="side"></div>
+    </div>
+</body>
+
+</html>
