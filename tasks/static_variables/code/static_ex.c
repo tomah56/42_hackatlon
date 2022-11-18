@@ -6,7 +6,7 @@
 /*   By: kisikogl <kisikogl@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/18 13:58:21 by kisikogl          #+#    #+#             */
-/*   Updated: 2022/11/18 18:31:14 by kisikogl         ###   ########.fr       */
+/*   Updated: 2022/11/18 21:08:07 by kisikogl         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 
 int	duplicate()
 {
-	static int	num;
+	static int	num = 1;
 
 	num *= 2;
 	return (num);
