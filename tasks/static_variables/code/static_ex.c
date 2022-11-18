@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   static_ex.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: kisikogl <kisikogl@student.42.fr>          +#+  +:+       +#+        */
+/*   By: alanghan <alanghan@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/18 13:58:21 by kisikogl          #+#    #+#             */
-/*   Updated: 2022/11/18 18:31:14 by kisikogl         ###   ########.fr       */
+/*   Updated: 2022/11/18 19:04:31 by alanghan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 
 int	duplicate()
 {
-	static int	num;
+	static int	num = 1;
 
 	num *= 2;
 	return (num);
