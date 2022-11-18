@@ -13,32 +13,40 @@
         const submitButton = document.getElementById('submit');
         const myQuestions = [
           {
-            question: "Who invented JavaScript?",
+            question: "Which system call returns -1 if it fails?",
             answers: {
-              a: "Douglas Crockford",
-              b: "Sheryl Sandberg",
-              c: "Brendan Eich"
+              a: "Open",
+              b: "Close",
+              c: "Read"
+            },
+            correctAnswer: "a"
+          },
+          {
+            question: "Which system call returns an int > 0 if successful?",
+            answers: {
+              a: "Open",
+              b: "Close",
+              c: "Read"
+            },
+            correctAnswer: "a"
+          },
+          {
+            question: "Which system call copies bytes to a buffer (*buf)?",
+            answers: {
+              a: "Open",
+              b: "Close",
+              c: "Read"
             },
             correctAnswer: "c"
           },
           {
-            question: "Which one of these is a JavaScript package manager?",
+            question: "Why should you close a file descriptor after opening it?",
             answers: {
-              a: "Node.js",
-              b: "TypeScript",
-              c: "npm"
+              a: "Leaving a file open is considered cheating by the Norm (-42)",
+              b: "Amount of assignable file descriptors is limited",
+              c: "It will stay opened after the program ends and you can't write to it anymore"
             },
-            correctAnswer: "c"
-          },
-          {
-            question: "Which tool can you use to ensure code quality?",
-            answers: {
-              a: "Angular",
-              b: "jQuery",
-              c: "RequireJS",
-              d: "ESLint"
-            },
-            correctAnswer: "d"
+            correctAnswer: "b"
           }
         ];
 
