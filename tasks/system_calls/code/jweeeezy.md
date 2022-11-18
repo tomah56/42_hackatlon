@@ -5,13 +5,13 @@ echo 00000000000000000000000000000000000000000042 > test.txt
 
 
 --- Code ---
-Download test.txt in your exercise folder.
+Write a program that prints the first 42 bytes of test.txt, followed by a \n character.
 
-Write a program a that prints the first 42 bytes of test.txt followed by a \n character.
 Allowed functions:
 open, read, close, write, malloc, free
 
 No memory leaks allowed!
 
 Your output should be the following:
-00000000000000000000000000000000000000000042
+"00000000000000000000000000000000000000000042
+"
