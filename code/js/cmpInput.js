@@ -44,10 +44,10 @@
    
         if (userInput.length == correct_answers)
         {
-            document.getElementById("restest").innerHTML = "Good Job!!";
+            document.getElementById("restest").innerHTML = "Great! The major reqards you with enough fuel to get your ship going again.";
             document.getElementById("next").style="visiblity: visible";
         }
         else
-    		document.getElementById("restest").innerHTML = "try again!!";
+    		document.getElementById("restest").innerHTML = "Did you really read all 9 lines?";
         document.getElementById("counter").innerHTML = "Correct answers: " + correct_answers + "/11";
     }
