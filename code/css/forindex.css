@@ -7,3 +7,10 @@ img {
   img:hover {
 	transform: scale(1.25);
   }
+  #sideimagecontainer {
+	padding-right: 15%;
+  }
+
+  #sideimagecontainer > img {
+	width: 40%;
+  }
