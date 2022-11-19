@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="./css/drag.css">
+<script>
+    function cmpInput()
+    {
+        var correct_answers = 0;
+
+        var answers = [
+            "void",
+            "int",
+            "int",
+            "char*",
+            "open",
+            "O_RDONLY"
+        ];
+
+        var userInput = [
+            document.getElementById("void").value.replaceAll(' ', ''),
+            document.getElementById("fd").value.replaceAll(' ', ''),
+            document.getElementById("i").value.replaceAll(' ', ''),
+            document.getElementById("char*").value.replaceAll(' ', ''),
+            document.getElementById("open").value.replaceAll(' ', ''),
+            document.getElementById("O_RDONLY").value.replaceAll(' ', '')
+        ];
+    	//console.log(userInput);
+        for (let i = 0; i < answers.length; i++)
+        {
+            if (answers[i] == userInput[i])
+            {
+                correct_answers++;
+            }
+            // document.getElementById("counter").innerHTML = userInput[3];
+        }
+   
+        if (userInput.length == correct_answers)
+    		document.getElementById("restest").innerHTML = "Good Job!!";
+        else
+    		document.getElementById("restest").innerHTML = "try again!!";
+        document.getElementById("counter").innerHTML = "Correct answers: " + correct_answers;
+
+    }
+</script>
+<body>
+
+<h1>Input Element</h1>
+<p>Submit your answer</p>
+<form id="form" onsubmit="return false;">
+    <p>int main(<input type="text" id="void">)<br>
+    {<br>
+        <input type="text" id="fd"> fd;<br>
+        <input type="text" id="i"> i;<br>
+        <input type="text" id="char*"> line;<br>
+        <br>
+        i = 0;<br>
+        fd = <input type="text" id="open"> ("test.txt", <input type="text" id="O_RDONLY">);<br>
+        }<br>
+        </p><br>
+    <input type="submit"    onclick="cmpInput()">
+</form>
+<div id="writebox">
+    <h1 id="restest"></h1>
+    <h2 id="counter"></h2>
+</div>
+
+
+</body>
+</html>
