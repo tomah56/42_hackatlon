@@ -1,5 +1,5 @@
 
-    function cmp_lvl_1()
+    function cmp_lvl_4()
     {
         var correct_answers = 0;
 
