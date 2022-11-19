@@ -1,0 +1,75 @@
+#player {
+	position: relative;
+	left: 220px;
+	top: 30px;
+	width: 15%;
+}
+#princess {
+	position: relative;
+	left: 110px;
+	top: 500px;
+	width: 25%;
+}
+#steps0 {
+	position: relative;
+	left: 250px;
+	top: 110px;
+	width: 10%;
+}
+#steps1 {
+	position: relative;
+	left: 30px;
+	top: 30px;
+	width: 5%;
+}
+#steps2 {
+	position: relative;
+	left: 50px;
+	top: 80px;
+	width: 9%;
+}
+#steps3 {
+	position: relative;
+	left: 70px;
+	top: 100px;
+	width: 6%;
+}
+#steps4 {
+	position: relative;
+	left: 100px;
+	top: 190px;
+	width: 7%;
+}
+
+#steps5 {
+	position: relative;
+	left: 110px;
+	top: 290px;
+	width: 10%;
+}
+#steps6 {
+	position: relative;
+	left: 40px;
+	top: 390px;
+	width: 3%;
+}
+#steps7 {
+	position: relative;
+	left: -120px;
+	top: 460px;
+	width: 6%;
+}
+
+#steps8 {
+	position: relative;
+	left: -255px;
+	top: 500px;
+	width: 8%;
+}
+
+#steps9 {
+	position: relative;
+	left: -350px;
+	top: 600px;
+	width: 12%;
+}
