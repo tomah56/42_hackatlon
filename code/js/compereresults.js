@@ -7,6 +7,7 @@ function comperResoults() {
 		{
 			document.getElementById("wrongmsg").style.visibility = "hidden";
 			document.getElementById("correctmsg").style.visibility = "visible";
+			document.getElementById("nextvisible").style.visibility = "visible";
 		}
 		else
 		{

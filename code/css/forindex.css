@@ -1,0 +1,9 @@
+img {
+	max-width: 100%;
+	height: auto;
+	width: 8%;
+  }
+
+  img:hover {
+	transform: scale(1.25);
+  }
