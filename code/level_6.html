@@ -32,10 +32,21 @@
   <main>
 	<div class="container-fluid">
 		<div class="row content">
-		  <div class="col-sm-3 sidenav">
-			<h4>John's Blog</h4>
-
-		  </div>
+			<div id="sideimagecontainer" class="col-sm-3 sidenav">
+				<h4>Level up!</h4>
+				<button id="levelbut1" type="button" class="btn btn-secondary">Level 1</button>
+				<img id="steps0" src="./img/step3.png" alt="blur">
+				<button id="levelbut2" type="button" class="btn btn-secondary">Level 2</button>
+				<img id="steps1" src="./img/step1.png" alt="blur">
+				<img id="steps2" src="./img/step2.png" alt="blur">
+				<img id="steps3" src="./img/step3.png" alt="blur">
+				<img id="steps4" src="./img/step2.png" alt="blur">
+				<img id="steps5" src="./img/step1.png" alt="blur">
+				<img id="steps6" src="./img/step1.png" alt="blur">
+				<img id="steps7" src="./img/step3.png" alt="blur">
+				<img id="steps8" src="./img/step2.png" alt="blur">
+				<img id="steps9" src="./img/step3.png" alt="blur">
+			  </div>
 		  <div class="col-sm-9">
 			<h4><small>RECENT POSTS</small></h4>
 			<div class="card text-center">
@@ -48,22 +59,20 @@
 				<input class="myinput" type="text" style="text-align:center" id="0" placeholder="Command">
 				<a href="index.html" id="nextvisible" style="visibility: hidden" class="btn btn-info">Next Level</a>
 			  </div>
-			  <div class="card-footer text-muted">
-				30 points
-			  </div>
 			  <button type="button" class="btn btn-outline-dark" onclick="cmp_lvl_6()">Submit</button><br>
 			  <div id="writebox">
-				<h5 id="restest"></h5>
-			  </div>
-			  <a href="index.html" id=next style="visibility: hidden" class="btn btn-info">Next Level</a>
+				  <h5 id="restest"></h5>
+				</div>
+				<a href="index.html" id=next style="visibility: hidden" class="btn btn-info">Next Level</a>
+				<div class="card-footer text-muted">
+					30 points
+				</div>
 			</div>
 		  </div>
 		</div>
 	</div>
 <script src ="./js/cmp_level_6.js"></script>
 </main>
-	  <footer class="container-fluid">
-		<p>Footer Text</p>
-	  </footer>
+
 </body>
 </html>

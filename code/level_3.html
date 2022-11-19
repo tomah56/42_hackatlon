@@ -1,52 +1,106 @@
 <!DOCTYPE html>
-<html>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+	<link rel="stylesheet" href="./css/forindex.css">
+	<link rel="stylesheet" href="./css/steps.css">
+	<link rel="stylesheet" href="./css/infotext.css">
+	<link rel="stylesheet" href="./css/drag.css">
 
-<link rel="stylesheet" href="./css/drag.css">
+	<title>42 Gemi</title>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="./js/compereresults.js"></script> 
 
+</head>
 <body>
 
-<div class="card text-center">
-    <div class="card-header">
-      Featured
-    </div>
-    <div class="card-body">
-      <h5 class="card-title">Fill in the blanks</h5>
-      <h6 class="card-text">The major of Blarglvarff send you two on a quest to find a hidden letter in the town’s library and read the first 9 lines.<br>Do you know how to accomplish that?</h6>
-      <div class="card text-left">
-      <p class="mytext">int main(<input class="myinput" type="text" id="0">)<br>
-        {<br>
-            <input class="myinput myindent" type="text" id="1"> fd;  <br>
-            <input class="myinput myindent" type="text" id="2"> i;<br>
-            <input class="myinput myindent" type="text" id="3"> line;</p>
-            <br>
-            <p class="myindent mytext"> i = 0; <br>
-            fd = <input class="myinput" type="text" id="4"> ("hidden_letter.txt", <input class="myinput" type="text" id="5">); <br>
-            while (<input class="myinput" type="text" id="6"> < 9) <br> 
-            {<br>
-                <input class="myinput myindent" type="text" id="7"> = get_next_line(<input class="myinput" type="text" id="8"> );<br>
-                <p class="mydoubleindent mytext"> printf("<input class="myinput" type="text" id="9">", line);<br>
-                <input class="myinput" type="text" id="10"> (line);<br>
-                    i++;<br>
-                }</p>
-                <p class="mytext myindent">return (0);</p>
-                <p class="mytext">}</p>
-            <br>
-        </div>
-      <button type="button" class="btn btn-outline-dark" onclick="cmpInput()">Submit</button><br>
-      <div id="writebox">
-        <h5 id="restest"></h5>
-        <h6 id="counter"></h6>
-      </div>
-      <a href="index.html" id=next style="visibility: hidden" class="btn btn-info">Next Level</a>
-    </div>
-    <div class="card-footer text-muted">
-      20 points
-    </div>
+<div class="collapse" id="navbarToggleExternalContent">
+	<div class="bg-dark p-2">
+		<img src="./img/littleman.png" alt="little space man">
+	  <h5 class="text-white h4">Collapsed content</h5>
+	  <span class="text-muted">Toggleable via the navbar brand.</span>
+	</div>
   </div>
-</div>
 
-<script src="./js/cmpInput.js"></script>
+  <nav class="navbar navbar-dark bg-dark">
+	<div class="container-fluid">
+	  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+		<span id="username"></span>
+	  </button>
+	</div>
+  </nav>
+  <main>
+	<div class="container-fluid">
+		<div class="row content">
+			<div id="sideimagecontainer" class="col-sm-3 sidenav">
+				<h4>Level up!</h4>
+				<button id="levelbut1" type="button" class="btn btn-secondary">Level 1</button>
+				<img id="steps0" src="./img/step3.png" alt="blur">
+				<button id="levelbut2" type="button" class="btn btn-secondary">Level 2</button>
+				<img id="steps1" src="./img/step1.png" alt="blur">
+				<img id="steps2" src="./img/step2.png" alt="blur">
+				<img id="steps3" src="./img/step3.png" alt="blur">
+				<img id="steps4" src="./img/step2.png" alt="blur">
+				<img id="steps5" src="./img/step1.png" alt="blur">
+				<img id="steps6" src="./img/step1.png" alt="blur">
+				<img id="steps7" src="./img/step3.png" alt="blur">
+				<img id="steps8" src="./img/step2.png" alt="blur">
+				<img id="steps9" src="./img/step3.png" alt="blur">
+			  </div>
+	  
+		  <div class="col-sm-9">
+        <div class="card text-center">
+          <div class="card-header">
+            Level 3
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Fill in the blanks</h5>
+            <h6 class="card-text">Helping our little guy with his first steps.</h6>
+            <div class="card text-left">
+            <p class="mytext">int main(<input class="myinput" type="text" id="0">)<br>
+              {<br>
+                  <input class="myinput myindent" type="text" id="1"> fd;  <br>
+                  <input class="myinput myindent" type="text" id="2"> i;<br>
+                  <input class="myinput myindent" type="text" id="3"> line;</p>
+                  <br>
+                  <p class="myindent mytext"> i = 0; <br>
+                  fd = <input class="myinput" type="text" id="4"> ("test.txt", <input class="myinput" type="text" id="5">); <br>
+                  while (<input class="myinput" type="text" id="6">) < 9) <br> 
+                  {<br>
+                      <input class="myinput myindent" type="text" id="7"> = get_next_line(<input class="myinput" type="text" id="8"> );<br>
+                      <p class="mydoubleindent mytext"> printf("<input class="myinput" type="text" id="9">", line);<br>
+                      <input class="myinput" type="text" id="10"> (line);<br>
+                          i++;<br>
+                      }</p>
+                      <p class="mytext myindent">return (0);</p>
+                      <p class="mytext">}</p>
+                  <br>
+              </div>
+            <button type="button" class="btn btn-outline-dark" onclick="cmpInput()">Submit</button><br>
+            <div id="writebox">
+              <h5 id="restest"></h5>
+              <h6 id="counter"></h6>
+            </div>
+            <a href="level_4.html" id=next style="visibility: hidden" class="btn btn-info">Next Level</a>
+          </div>
+          <div class="card-footer text-muted">
+            20 points
+          </div>
+        </div>
+      </div>
+      
+      <script src="./js/cmpInput.js"></script>
+      
+			
+		  </div>
+		</div>
+	</div>
+	  
+</main>
 
 </body>
 </html>

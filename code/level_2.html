@@ -1,87 +1,140 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-		<link rel="stylesheet" href="./css/drag.css">
-		<script src="./js/compereresults.js"></script>
-	</head>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+	<link rel="stylesheet" href="./css/forindex.css">
+	<link rel="stylesheet" href="./css/steps.css">
+	<link rel="stylesheet" href="./css/infotext.css">
+	<link rel="stylesheet" href="./css/drag.css">
+
+	<title>42 Gemi</title>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="./js/compereresults.js"></script> 
+
+</head>
 <body>
 
-	<div class="card text-center">
-		<div class="card-header">
-		  Level 2
-		</div>
-		<div class="card-body">
-		  <h5 class="card-title">Oh no!<br/>The mainframe of GNLs spaceship got completely scrambled during the last warp jump!</h5>
-		  <p class="card-text">Try to see if you can help to unscramble it.</p>
+<div class="collapse" id="navbarToggleExternalContent">
+	<div class="bg-dark p-2">
+		<img src="./img/littleman.png" alt="little space man">
+	  <h5 class="text-white h4">Collapsed content</h5>
+	  <span class="text-muted">Toggleable via the navbar brand.</span>
+	</div>
+  </div>
 
-		  	<div>
-				<div class="card border-light mb-3" style="max-width: 18rem;">
-					<div style="width: 100%; visibility: hidden;">
-						<p>------------</p>
+  <nav class="navbar navbar-dark bg-dark">
+	<div class="container-fluid">
+	  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+		<span id="username"></span>
+	  </button>
+	</div>
+  </nav>
+  <main>
+	<div class="container-fluid">
+		<div class="row content">
+			<div id="sideimagecontainer" class="col-sm-3 sidenav">
+				<h4>Level up!</h4>
+				<button id="levelbut1" type="button" class="btn btn-secondary">Level 1</button>
+				<img id="steps0" src="./img/step3.png" alt="blur">
+				<button id="levelbut2" type="button" class="btn btn-secondary">Level 2</button>
+				<img id="steps1" src="./img/step1.png" alt="blur">
+				<img id="steps2" src="./img/step2.png" alt="blur">
+				<img id="steps3" src="./img/step3.png" alt="blur">
+				<img id="steps4" src="./img/step2.png" alt="blur">
+				<img id="steps5" src="./img/step1.png" alt="blur">
+				<img id="steps6" src="./img/step1.png" alt="blur">
+				<img id="steps7" src="./img/step3.png" alt="blur">
+				<img id="steps8" src="./img/step2.png" alt="blur">
+				<img id="steps9" src="./img/step3.png" alt="blur">
+			  </div>
+	  
+		  <div class="col-sm-9">
+			<div class="card text-center">
+				<div class="card-header">
+				  Level 2
+				</div>
+				<div class="card-body">
+				  <h5 class="card-title">Play with the code!</h5>
+				  <p class="card-text">Try to see what and why. It works this way or that way??</p>
+		
+					  <div>
+						<div class="card border-light mb-3" style="max-width: 18rem;">
+							<div style="width: 100%; visibility: hidden;">
+								<p>------------</p>
+							</div>
+						</div>
+						<div class="card border-light mb-3" style="max-width: 18rem;">
+							<div style="width: 100%; visibility: hidden;">
+								<p>------------------------------</p>
+							</div>
+						</div>
+						<div class="card border-light mb-3" style="max-width: 18rem;">
+							<p style="text-align: left;">{</p>
+						</div>
+						<div class="card border-light mb-3" style="max-width: 18rem;">
+							<div style="width: 100%; visibility: hidden;">
+								<p>-------------------------------------------------------------------------------------</p>
+							</div>
+						</div>
+						<div class="card border-light mb-3" style="max-width: 18rem;">
+							<div style="width: 100%; visibility: hidden;">
+								<p>----------------------------------</p>
+							</div>
+						</div>
+						<div class="card border-light mb-3" style="max-width: 18rem;">
+							<p style="text-align: left;">}</p>
+						</div>
+						
+						<div class="card bg-light mb-3" style="max-width: 18rem;" id="mydiv4">
+							<p class="card-text">return (0);</p>
+						</div>
+						<div class="card bg-light mb-3" style="max-width: 18rem;" id="mydiv">
+							<p class="card-text">#include &lt;unistd.h&gt;</p>
+						</div>
+						<div class="card bg-light mb-3" style="max-width: 18rem;" id="mydiv2">
+							<p class="card-text">int main(void)</p>
+						</div>
+						
+						<div class="card bg-light mb-3" style="max-width: 18rem;"id="mydiv3">
+							<p class="card-text">write(1, "42!!\n",5);</p>
+						</div>
 					</div>
+					
+					<button type="button" class="btn btn-outline-dark" onclick="comperResoults()">TestMe</button>
+					<a href="level_3.html" id="nextvisible" style="visibility: hidden" class="btn btn-info">Next Level</a>
 				</div>
-				<div class="card border-light mb-3" style="max-width: 18rem;">
-					<div style="width: 100%; visibility: hidden;">
-						<p>------------------------------</p>
-					</div>
+				<div class="card-footer text-muted">
+				 10 points
 				</div>
-				<div class="card border-light mb-3" style="max-width: 18rem;">
-					<p style="text-align: left;">{</p>
+			  </div>
+				<hr>
+			  <div class="card text-white bg-success mb-3" style="max-width: 18rem; visibility: hidden;" id="correctmsg" >
+				<div class="card-header">Well done!</div>
+				<div class="card-body">
+				  <h5 class="card-title">You figured out the correct order</h5>
+				  <p class="card-text">Just to let you know how and which order the function is executes is very important!</p>
 				</div>
-				<div class="card border-light mb-3" style="max-width: 18rem;">
-					<div style="width: 100%; visibility: hidden;">
-						<p>-------------------------------------------------------------------------------------</p>
-					</div>
+			  </div>
+		
+			  <div class="card text-white bg-danger mb-3" style="max-width: 18rem; visibility: hidden;" id="wrongmsg">
+				<div class="card-header">Upsss</div>
+				<div class="card-body">
+				  <h5 class="card-title">Looks like you run in to some problems!</h5>
+				  <p class="card-text">Try to think about what happening now in the code. Ho over it line by line!</p>
 				</div>
-				<div class="card border-light mb-3" style="max-width: 18rem;">
-					<div style="width: 100%; visibility: hidden;">
-						<p>----------------------------------</p>
-					</div>
-				</div>
-				<div class="card border-light mb-3" style="max-width: 18rem;">
-					<p style="text-align: left;">}</p>
-				</div>
-				
-				<div class="card bg-light mb-3" style="max-width: 18rem;" id="mydiv4">
-					<p class="card-text">return (0);</p>
-				</div>
-				<div class="card bg-light mb-3" style="max-width: 18rem;" id="mydiv">
-					<p class="card-text">#include &lt;unistd.h&gt;</p>
-				</div>
-				<div class="card bg-light mb-3" style="max-width: 18rem;" id="mydiv2">
-					<p class="card-text">int main(void)</p>
-				</div>
-				
-				<div class="card bg-light mb-3" style="max-width: 18rem;"id="mydiv3">
-					<p class="card-text">write(1, "42!!\n",5);</p>
-				</div>
-			</div>
+		
+				<script src="./js/drag.js"></script>
+		
 			
-			<button type="button" class="btn btn-outline-dark" onclick="comperResoults()">TestMe</button>
-			<a href="level_3.html" id="nextvisible" style="visibility: hidden" class="btn btn-info">Next Level</a>
+		  </div>
 		</div>
-		<div class="card-footer text-muted">
-		 10 points
-		</div>
-	  </div>
-		<hr>
-	  <div class="card text-white bg-success mb-3" style="max-width: 18rem; visibility: hidden;" id="correctmsg" >
-		<div class="card-header">Well done!</div>
-		<div class="card-body">
-		  <h5 class="card-title">You figured out the correct order and got control over the spaceship back!</h5>
-		  <p class="card-text">Understanding the order in which code is executed is very important!</p>
-		</div>
-	  </div>
-
-	  <div class="card text-white bg-danger mb-3" style="max-width: 18rem; visibility: hidden;" id="wrongmsg">
-		<div class="card-header">Upsss</div>
-		<div class="card-body">
-		  <h5 class="card-title">Looks like you ran into some problems and you're still spinning uncontrollably through space!</h5>
-		  <p class="card-text">In cases like that, always take a short breather and try to think about what the code really should accomplish. Go over it line by line.</p>
-		</div>
-
-<script src="./js/drag.js"></script>
+	</div>
+	  
+</main>
 
 </body>
 </html>
