@@ -69,3 +69,15 @@ footer {
     width: 100%;
     height: 5vw;
 }
+.mytext {
+  text-align: left;
+}
+.myinput {
+  max-width: 6rem
+}
+.myindent{
+  margin-left: 20px;
+}
+.mydoubleindent{
+  margin-left: 35px;
+}

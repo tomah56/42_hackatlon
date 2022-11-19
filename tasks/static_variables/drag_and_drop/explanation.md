@@ -1,0 +1,1 @@
+The peers get a number of elements, they have to drag and drop to the right place.
