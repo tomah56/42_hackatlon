@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!-- <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="jquery.connections.js"></script> -->
+	<title>Exercise Type: Pair of Twos</title>
+</head>
+
+<body style="background-color: black">
+
+	<!--	Linking to css file-->
+	<link rel="stylesheet" href="pairoftwos.css">
+
+	<!--	Buttons 3x Left 3x Right	-->
+
+	<button id="lt" onmousedown="mouseClick(id)" class="button_left button_top">stdin</button>
+	<button id="lm" onmousedown="mouseClick(id)" class="button_left button_middle">stderr</button>
+	<button id="lb" onmousedown="mouseClick(id)" class="button_left button_bottom">stdout</button>
+	<button id="rt" onmousedown="mouseClick(id)" class="button_right button_top">fd = 1</button>
+	<button id="rm" onmousedown="mouseClick(id)" class="button_right button_middle">fd = 3</button>
+	<button id="rb" onmousedown="mouseClick(id)" class="button_right button_bottom">fd = 2</button>
+
+	<!--	Running Java Script File	-->
+	<script src="pairoftwos.js"></script>
+
+	<!--	Create a Canvas for drawing			-->
+	<canvas id="canvas" ></canvas>
+
+</body>
+</html>
