@@ -45,11 +45,9 @@
         if (userInput.length == correct_answers)
         {
             document.getElementById("restest").innerHTML = "Good Job!!";
-            document.getElementById("next").style="visiblity: visible"
+            document.getElementById("next").style="visiblity: visible";
         }
-
         else
     		document.getElementById("restest").innerHTML = "try again!!";
         document.getElementById("counter").innerHTML = "Correct answers: " + correct_answers + "/11";
-
     }
