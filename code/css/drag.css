@@ -2,29 +2,29 @@
 	position: absolute;
 	z-index: 9;
   padding: 5px;
-	top: 14vw;
-	left: 29vw;
+    top: 20vw;
+    left: 27vw;
   }
 #mydiv3 {
 	position: absolute;
 	z-index: 9;
   padding: 5px;
-	top: 5vw;
+	top: 25vw;
 	left: 31vw;
   }
 #mydiv4 {
 	position: absolute;
 	z-index: 9;
   padding: 5px;
-	top: 20vw;
-	left: 27vw;
+    top: 17vw;
+    left: 33vw;
   }
 #mydiv2 {
 	position: absolute;
   padding: 5px;
 	z-index: 9;
-	top: 17vw;
-	left: 33vw;
+    top: 14vw;
+	left: 29vw;
 }
 #result {
   position: absolute;
