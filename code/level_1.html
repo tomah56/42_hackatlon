@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+	<link rel="stylesheet" href="./css/forindex.css">
+
+	<title>42 Gemi</title>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+<body>
+
+<div class="collapse" id="navbarToggleExternalContent">
+	<div class="bg-dark p-2">
+		<img src="./img/littleman.png" alt="little space man">
+	  <h5 class="text-white h4">Collapsed content</h5>
+	  <span class="text-muted">Toggleable via the navbar brand.</span>
+	</div>
+  </div>
+
+  <nav class="navbar navbar-dark bg-dark">
+	<div class="container-fluid">
+	  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+		<span id="username"></span>
+	  </button>
+	</div>
+  </nav>
+  <main>
+	<div class="container-fluid">
+		<div class="row content">
+			<div class="col-sm-3 sidenav">
+				<h4>John's Blog</h4>
+				<img src="./img/step3.png" alt="blur">
+				<img src="./img/step1.png" alt="blur">
+				<img src="./img/step2.png" alt="blur">
+				<img src="./img/step3.png" alt="blur">
+				<img src="./img/step2.png" alt="blur">
+				<img src="./img/step1.png" alt="blur">
+				<img src="./img/step1.png" alt="blur">
+				<img src="./img/step3.png" alt="blur">
+				<img src="./img/step2.png" alt="blur">
+				<img src="./img/step3.png" alt="blur">
+				
+			  </div>
+		  <div class="col-sm-9">
+			<h4><small>RECENT POSTS</small></h4>
+			<div class="card text-center">
+			  <div class="card-header">
+				Level 1
+			  </div>
+			  <div class="card-body">
+				<h5 class="card-title">What is your name?</h5>
+				<p class="card-text">So we can start the game</p>
+				
+				<input class="myinput myindent" type="text" id="1">
+				<button type="button" class="btn btn-outline-dark" onclick="showButton()">Submit</button><br>
+				<p id="storytellerAlf"></p>
+				<a href="index.html" id="nextvisible" style="visibility: hidden" class="btn btn-info">Next Level</a>
+			</div>
+			  <div class="card-footer text-muted">
+				5 points
+			  </div>
+			</div>
+		
+			
+		  </div>
+		</div>
+	</div>
+	  
+</main>
+	  <footer class="container-fluid">
+		<p>Footer Text</p>
+	  </footer>
+	<!--                            -->
+
+<script src="./js/level_1.js"></script>
+
+</body>
+</html>
