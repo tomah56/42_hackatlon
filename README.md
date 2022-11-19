@@ -13,3 +13,5 @@ We broke down the core curriculums `get_next_line` into the most important progr
 ### Team values:
 We are all about maximizing profit and delivering industry disrupting MVPs in a fast-paced environment.
 Scalability is all we care about.
+
+[Go to the game](https://tomah56.github.io/42_hackatlon/code/)
