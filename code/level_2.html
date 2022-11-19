@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+		<link rel="stylesheet" href="./css/drag.css">
+		<script src="./js/compereresults.js"></script>
+	</head>
+<body>
+
+	<div class="card text-center">
+		<div class="card-header">
+		  Level 2
+		</div>
+		<div class="card-body">
+		  <h5 class="card-title">Play with the code!</h5>
+		  <p class="card-text">Try to see what and why. It works this way or that way??</p>
+
+		  	<div>
+				<div class="card border-light mb-3" style="max-width: 18rem;">
+					<div style="width: 100%; visibility: hidden;">
+						<p>------------</p>
+					</div>
+				</div>
+				<div class="card border-light mb-3" style="max-width: 18rem;">
+					<div style="width: 100%; visibility: hidden;">
+						<p>------------------------------</p>
+					</div>
+				</div>
+				<div class="card border-light mb-3" style="max-width: 18rem;">
+					<p style="text-align: left;">{</p>
+				</div>
+				<div class="card border-light mb-3" style="max-width: 18rem;">
+					<div style="width: 100%; visibility: hidden;">
+						<p>-------------------------------------------------------------------------------------</p>
+					</div>
+				</div>
+				<div class="card border-light mb-3" style="max-width: 18rem;">
+					<div style="width: 100%; visibility: hidden;">
+						<p>----------------------------------</p>
+					</div>
+				</div>
+				<div class="card border-light mb-3" style="max-width: 18rem;">
+					<p style="text-align: left;">}</p>
+				</div>
+				
+				<div class="card bg-light mb-3" style="max-width: 18rem;" id="mydiv4">
+					<p class="card-text">return (0);</p>
+				</div>
+				<div class="card bg-light mb-3" style="max-width: 18rem;" id="mydiv">
+					<p class="card-text">#include &lt;unistd.h&gt;</p>
+				</div>
+				<div class="card bg-light mb-3" style="max-width: 18rem;" id="mydiv2">
+					<p class="card-text">int main(void)</p>
+				</div>
+				
+				<div class="card bg-light mb-3" style="max-width: 18rem;"id="mydiv3">
+					<p class="card-text">write(1, "42!!\n",5);</p>
+				</div>
+			</div>
+			
+			<button type="button" class="btn btn-outline-dark" onclick="comperResoults()">TestMe</button>
+		</div>
+		<div class="card-footer text-muted">
+		 10 points
+		</div>
+	  </div>
+		<hr>
+	  <div class="card text-white bg-success mb-3" style="max-width: 18rem; visibility: hidden;" id="correctmsg" >
+		<div class="card-header">Well done!</div>
+		<div class="card-body">
+		  <h5 class="card-title">You figured out the correct order</h5>
+		  <p class="card-text">Just to let you know how and which order the function is executes is very important!</p>
+		</div>
+	  </div>
+
+	  <div class="card text-white bg-danger mb-3" style="max-width: 18rem; visibility: hidden;" id="wrongmsg">
+		<div class="card-header">Upsss</div>
+		<div class="card-body">
+		  <h5 class="card-title">Looks like you run in to some problems!</h5>
+		  <p class="card-text">Try to think about what happening now in the code. Ho over it line by line!</p>
+		</div>
+
+
+<div id="result">
+	
+	<div id="writebox">
+		<h1 id="restest"></h1>    
+	</div>
+</div>
+
+	<script src="./js/drag.js"></script>
+
+</body>
+</html>
