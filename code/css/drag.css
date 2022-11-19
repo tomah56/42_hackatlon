@@ -1,18 +1,33 @@
 #mydiv {
 	position: absolute;
 	z-index: 9;
-
+  padding: 5px;
+	top: 14vw;
+	left: 29vw;
+  }
+#mydiv3 {
+	position: absolute;
+	z-index: 9;
+  padding: 5px;
+	top: 5vw;
+	left: 31vw;
+  }
+#mydiv4 {
+	position: absolute;
+	z-index: 9;
+  padding: 5px;
 	top: 20vw;
 	left: 27vw;
   }
 #mydiv2 {
 	position: absolute;
+  padding: 5px;
 	z-index: 9;
-	top: 20vw;
+	top: 17vw;
 	left: 33vw;
-  }
+}
 #result {
-	position: absolute;
+  position: absolute;
 	z-index: 15;
 	text-align: left;
 	top: 35vw;
