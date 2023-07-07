@@ -17,10 +17,13 @@
 <body>
 
 <div class="collapse" id="navbarToggleExternalContent">
-	<div class="bg-dark p-2">
-		<img src="./img/littleman.png" alt="little space man">
-	  <h5 class="text-white h4">Collapsed content</h5>
-	  <span class="text-muted">Toggleable via the navbar brand.</span>
+	<div class="bg-dark p-2 collapsmenu_2">
+		<a href="index.html">
+			<img src="./img/littleman.png" alt="little space man">
+		</a>
+	
+	  <h5 class="text-white h4">HeyHo!</h5>
+	  <span class="text-muted">Try & Error!</span>
 	</div>
   </div>
 
@@ -33,10 +36,10 @@
 	</div>
   </nav>
   <main>
-	<div class="container-fluid">
+	<div class="container-fluid aligncenterforme">
 		
-		<div class="row content">
-		  <div id="sideimagecontainer" class="col-sm-3 sidenav">
+		<div class="row content setthesidetogo">
+		  <div class="sideimagecontainer" class="col-sm-3 sidenav">
 			<h4>Level up!</h4>
 			<button id="levelbut1" type="button" class="btn btn-secondary">Level 1</button>
 			<img id="steps0" src="./img/step3.png" alt="blur">
@@ -52,40 +55,33 @@
 			<img id="steps9" src="./img/step3.png" alt="blur">
 		  </div>
 
-		  <div class="col-sm-9">
-			<h4><small><strong>G</strong>alaxy <strong>N</strong>inja <strong>L</strong>ad</small></h4>
-			<h5><small>And the quest of the hidden message</small></h5>
-			<p>Welcome weary traveller. I can see you are lost in space and time on your way of mastering the 42 core curriculum.
-                Don't give up hope yet! You're not alone.<br>
-                On your side is our brave, little time-travelling <strong>G</strong>alaxy <strong>N</strong>inja <strong>L</strong>ad.<br>
-                As our peer-to-peer system teaches us, helping each other is the best way to go!<br>
-                And by helping him find his way to the <strong>Intergalactic Post Office</strong>, to deliver his next line,<br>
-                maybe, he will also help you on your path to the next ring of the holy graph.
-                </p>
-			<hr>
-
-			<article>
-				<a href="./level_1.html">
-					<img id="steps1" src="./img/step1.png" alt="blur"></a>
-				<a href="./level_2.html">
-					<img id="steps0" src="./img/step2.png" alt="blur"></a>
-				<img id="player" src="./img/littleman.png" alt="blur">
-				<a href="./level_3.html">
-				<img id="steps5" src="./img/step3.png" alt="blur"></a>
-				<img id="steps3" src="./img/step3.png" alt="blur">
-				<img id="steps5" src="./img/step1.png" alt="blur">
-				<img id="steps6" src="./img/step1.png" alt="blur">
-				<img id="steps7" src="./img/step3.png" alt="blur">
-				<img id="steps8" src="./img/step2.png" alt="blur">
-				<img id="steps9" src="./img/step3.png" alt="blur">
-				<img id="princess" src="./img/step2.png" alt="blur">
-
-			</article>
-
-
-
+	
+			<div class="col-sm-9">
+				<div class="card text-center">
+				  <div class="card-header">
+					<h4><small><strong>G</strong>alaxy <strong>N</strong>inja <strong>L</strong>ad</small></h4>
+				  </div>
+				  <div class="card-body">
+					<h5><small>And the quest of the hidden message</small></h5>
+					<p>Welcome weary traveller. I can see you are lost in space and time on your way of mastering the 42 core curriculum.
+						Don't give up hope yet! You're not alone.<br>
+						On your side is our brave, little time-travelling <strong>G</strong>alaxy <strong>N</strong>inja <strong>L</strong>ad.<br>
+						As our peer-to-peer system teaches us, helping each other is the best way to go!<br>
+						And by helping him find his way to the <strong>Intergalactic Post Office</strong>, to deliver his next line,<br>
+						maybe, he will also help you on your path to the next ring of the holy graph.
+						</p>
+					<a href="level_1.html" id="nextvisible" class="btn btn-info">START</a>
+				</div>
+				  <div class="card-footer text-muted">
+					Have Fun!
+				  </div>
+				</div>
 		  </div>
-		</div>
+		  <div class="d-grid gap-2 d-md-block">
+			<!-- <a href="index.html" class="btn btn-primary">&#8592;</a> -->
+			<a href="level_1.html" class="btn btn-primary">&#8594;</a>
+		  </div>
+
 	</div>
 
 </main>

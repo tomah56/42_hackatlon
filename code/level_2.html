@@ -18,10 +18,12 @@
 <body>
 
 <div class="collapse" id="navbarToggleExternalContent">
-	<div class="bg-dark p-2">
-		<img src="./img/littleman.png" alt="little space man">
-	  <h5 class="text-white h4">Collapsed content</h5>
-	  <span class="text-muted">Toggleable via the navbar brand.</span>
+	<div class="bg-dark p-2 collapsmenu_2">
+		<a href="index.html">
+			<img src="./img/littleman.png" alt="little space man">
+		</a>
+	  <h5 class="text-white h4">HeyHo!</h5>
+	  <span class="text-muted">Try & Error!</span>
 	</div>
   </div>
 
@@ -34,9 +36,9 @@
 	</div>
   </nav>
   <main>
-	<div class="container-fluid">
-		<div class="row content">
-			<div id="sideimagecontainer" class="col-sm-3 sidenav">
+	<div class="container-fluid aligncenterforme">
+		<div class="row content setthesidetogo">
+			<div class="sideimagecontainer" class="col-sm-3 sidenav">
 				<h4>Level up!</h4>
 				<button id="levelbut1" type="button" class="btn btn-secondary">Level 1</button>
 				<img id="steps0" src="./img/step3.png" alt="blur">
@@ -52,7 +54,7 @@
 				<img id="steps9" src="./img/step3.png" alt="blur">
 			  </div>
 	  
-		  <div class="col-sm-9">
+		  <div class="col-sm-9 justify-content-center">
 			<div class="card text-center">
 				<div class="card-header">
 				  Level 2
@@ -111,6 +113,11 @@
 				 10 points
 				</div>
 			  </div>
+
+			  <div class="d-grid gap-2 d-md-block">
+				<a href="level_1.html" class="btn btn-primary">&#8592;</a>
+				<a href="level_3.html" class="btn btn-primary">&#8594;</a>
+			  </div>
 				<hr>
 			  <div class="card text-white bg-success mb-3" style="max-width: 18rem; visibility: hidden;" id="correctmsg" >
 				<div class="card-header">Well done!</div>
@@ -131,6 +138,7 @@
 		
 			
 		  </div>
+		  
 		</div>
 	</div>
 	  
