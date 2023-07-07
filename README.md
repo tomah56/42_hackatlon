@@ -1,6 +1,11 @@
 # 42_hackathon
 This little project was made for the first 42Heilbronn inhouse hackathon. The title was "Level up".  In 24 hours we had to come up with an idea to make the school even more awesome. So we came up with a gamification idea for one of our projects.
 
+## The Plan
+![white board drawing of an application plane](https://github.com/tomah56/42_hackatlon/blob/main/IMG_20221118_170247.jpg?raw=true)
+
+
+
 ## The team
 [ALf](https://github.com/alfjl), [Fredi](https://github.com/Fredi-B), [Jakob](https://github.com/jweeeezy), [Kerem](https://github.com/K-isikoglu) and me
 
