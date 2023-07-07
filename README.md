@@ -1,8 +1,8 @@
 # 42_hackathon
 This little project was made for the first 42Heilbronn inhouse hackathon. The subject was "Level up" in 24 hours we had to come with an idea to make the school even more awesome. So we came up with a gemification idea of one of our project.
 
-##The team
-[ALf](https://github.com/alfjl) [Fredi](https://github.com/Fredi-B) [Jakob](https://github.com/jweeeezy) [Kerem]() and me
+## The team
+[ALf](https://github.com/alfjl), [Fredi](https://github.com/Fredi-B), [Jakob](https://github.com/jweeeezy), [Kerem]() and me
 
 ## Problem:
 Starting a new 42 project can be very challenging, due to its scope. Many peers get stuck in the beginning, not knowing where to start and which concepts might be helpful to fulfill the assignment.  
@@ -19,4 +19,4 @@ We broke down the core curriculums `get_next_line` into the most important progr
 >Scalability is all we care about.
 >"Put a Blockchain in it..."
 
-[Go to the game](https://tomah56.github.io/42_hackatlon/code/)
+# [Go to the game](https://tomah56.github.io/42_hackatlon/code/)
