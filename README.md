@@ -4,6 +4,8 @@ This little project was made for the first 42Heilbronn inhouse hackathon. The ti
 ## The Plan
 ![white board drawing of an application plane](https://github.com/tomah56/42_hackatlon/blob/main/IMG_20221118_170247.jpg?raw=true)
 
+<img src="https://github.com/tomah56/42_hackatlon/blob/main/IMG_20221118_170247.jpg" width="50%"/>
+
 
 
 ## The team
